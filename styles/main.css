@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	font-family: courier;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+}
+
+header h1 {
+	margin: 40px 0px;
+    letter-spacing: 5px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+	list-style-type: none;
+	padding: 5px 50px;
+	margin: 0;
+}
+
+nav ul li a {
+	color: white;
+}
+
+.row:after{
+	clear: both;
+}
+
+.col {
+    color: white;
+	background: #333;
+	float: left;
+	margin: 1%;
+	width: 31%;
+}

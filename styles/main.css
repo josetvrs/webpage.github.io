@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	font-family: courier;
 }
+div.box{
+	text-align: center;
+}
 
 header {
 	background: black;
